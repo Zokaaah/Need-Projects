@@ -1,0 +1,23 @@
+.container{
+    width: 1200px;
+    justify-content: space-between;
+    display: flex;
+    margin:0 auto;
+    flex-wrap: wrap;
+    height: 100%;
+    color: #2d3748;
+    margin-top: 0px;
+
+}
+
+
+.min-height{
+    min-height: 75%;
+}
+
+
+.imgProject{
+    width: 100%;
+    height: auto;
+}
+

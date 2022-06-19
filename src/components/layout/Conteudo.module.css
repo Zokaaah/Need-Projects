@@ -1,0 +1,97 @@
+body{
+    color:#2d3748;
+    margin: none;
+    width: 100%;
+    overflow-x:hidden;
+}
+
+.gif{
+    height: 380px;
+    width: 380px;
+}
+.conteudoBkg{
+    background-color: #292b2c;
+    color:white;
+    
+    margin: 0 -9999rem;
+    padding: 0.25rem 9999rem;
+    
+}
+.containerConteudo{
+    margin-top: 20px;
+    width: 450px;
+    margin: 0 auto;
+    padding: 10px;
+    align-items: center;
+    background-color: #2d3748;
+
+}
+
+.btn1{
+    
+    border: 2px solid #ff8b1f;
+    background-color:#ff8b1f;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    transition:0.5s;
+    border-radius: 4.5px;
+}
+
+.btn1:hover{
+    border: 2px solid #ff8b1f;
+    background-color: white;
+    color:#ff8b1f;
+    font-size: 16px;
+    cursor: pointer;
+    transition:0.5s;
+    
+}
+
+.recursoTitle{
+    font-weight: bold;
+    font-size: 2.4em;
+}
+
+p{
+font-size: 1.3em;
+color:white;
+width: 100%;
+
+}
+
+.TextoRecurso{
+    margin: 0 auto;
+    padding: 10px;
+    align-items: center;
+}
+
+.containerCard{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+
+  
+    
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 330px;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.imgCard{
+    height: 250px;
+    width: 200px;
+}
+
+

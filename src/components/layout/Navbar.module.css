@@ -1,0 +1,90 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color:white;
+    border:solid 1px none;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    height: 90px;
+    /* margin-bottom: 40px; */
+}
+
+.divNav{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.divLogo{
+    width: 30%;
+}
+
+.divMenu{
+    width: 45%;
+}
+
+.divLogin{
+    width: 25%;
+
+}
+
+.btnLogin{
+    border: 2px solid #ff8b1f;
+    background-color:#ff8b1f;
+    color: white;
+    padding: 10px 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition:0.5s;
+    border-radius: 4.5px;
+    font-weight: bold;
+}
+
+.btnLogin:hover{
+    border: 2px solid #ff8b1f;
+    background-color: white;
+    color:#ff8b1f;
+    font-size: 15px;
+    cursor: pointer;
+    transition:0.5s;
+
+}
+
+
+.list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+
+}
+
+
+.LogoNav{
+    height: 80px;
+    width: 150px;
+    list-style: none;
+
+}
+
+
+
+.item{
+    margin-right: 1em;
+}
+
+.item a{
+    color:#2d3748;
+    text-decoration: none;
+    font-size: 0.8em;
+    font-weight: bold;
+
+}
+
+.item a:hover{
+text-decoration: underline;
+}

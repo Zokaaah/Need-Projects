@@ -1,0 +1,43 @@
+body{
+    height: 100%;
+    
+
+}
+
+
+.newProjectContainer{
+    width: 450px;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: auto;
+}
+form{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.btn{
+    margin-top: 10px;
+    border: 2px solid #ff8b1f;
+    background-color:#ff8b1f;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 140px;
+    transition:0.5s;
+
+    
+
+}
+
+
+
+.btn:hover{
+    border: 2px solid #ff8b1f;
+    background-color: white;
+    color:#ff8b1f;
+    font-size: 16px;
+    cursor: pointer;
+    transition:0.5s;
+}
