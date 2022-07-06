@@ -1,3 +1,10 @@
+@media screen and (max-width:1000px){
+    .container{
+        width: 1000px;
+    }
+}
+    
+
 .container{
     width: 1200px;
     justify-content: space-between;
@@ -9,15 +16,15 @@
     margin-top: 0px;
 
 }
+@media screen and (max-width:1000px){
+    .container{
+        width: auto;
+    }
+}
 
 
 .min-height{
     min-height: 75%;
 }
 
-
-.imgProject{
-    width: 100%;
-    height: auto;
-}
 

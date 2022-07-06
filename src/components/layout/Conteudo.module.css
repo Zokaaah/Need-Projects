@@ -1,3 +1,4 @@
+
 body{
     color:#2d3748;
     margin: none;
@@ -15,6 +16,7 @@ body{
     
     margin: 0 -9999rem;
     padding: 0.25rem 9999rem;
+    margin-bottom: 40px;
     
 }
 .containerConteudo{
@@ -61,11 +63,7 @@ width: 100%;
 
 }
 
-.TextoRecurso{
-    margin: 0 auto;
-    padding: 10px;
-    align-items: center;
-}
+
 
 .containerCard{
     flex-direction: row;
@@ -82,6 +80,8 @@ width: 100%;
     width: 330px;
     height: auto;
     margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
   }
   
   /* On mouse-over, add a deeper shadow */

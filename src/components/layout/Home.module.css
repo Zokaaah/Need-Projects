@@ -3,8 +3,8 @@ body{
     min-width: 100%;
     color:2d3748;
 }
+
 .homeContainer{
-    width: 100%;
     display: flex;
     flex-direction: row;
     margin-bottom: 50px;
@@ -13,6 +13,7 @@ body{
 .textHome{
     margin-top: 10%;
     width: 50%;
+    margin-bottom: 50px;
 
 }
 
@@ -25,11 +26,13 @@ body{
 
 .imgHome{
     width: 50%;
+    display: flexbox;
     
 }
 
 .homeStart{
     height: 430px;
+    margin-left: 50%;
     
 }
 
@@ -51,6 +54,8 @@ body{
 
 button{
     margin-left: 5px;
+    margin-top: 30px;
+
 }
 
 .btn1:hover{

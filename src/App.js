@@ -11,6 +11,11 @@ import Container from './components/layout/Container';
 import Navbar from './components/layout/Navbar'
 import Footer from './components/layout/Footer'
 import Topo from './components/layout/Topo'
+import Newnav from './components/layout/Newnav';
+import { ThemeProvider } from '@mui/material';
+import theme from './components/theme';
+import NavBarD from './components/layout/NavBarD';
+import gridHome from './components/layout/gridHome';
 
 
 
@@ -19,7 +24,9 @@ function App() {
   <div className='App'>
     <Router>
       {/* <Topo/> */}
-      <Navbar/>
+      {/* <Navbar/> */}
+      {/* <Newnav/> */}
+      <NavBarD/>
       <Switch>
        <Container> 
         <Route exact path='/'>
@@ -44,6 +51,7 @@ function App() {
           <Projetos/>
         </Route>
 
+      <gridHome/>
       </Container> 
 
       </Switch>
