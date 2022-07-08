@@ -1,12 +1,11 @@
 import projects from './../layout/img/projects.png'
 import styles from './../layout/Container.module.css'
+import Sign from './../layout/Sign'
 
 function Projetos (){
     return(
         <div>
-            <h1>Meus projetos</h1>
-
-            <img src={projects} alt="projects" class={styles.imgProject}></img>
+           <Sign/>
         </div>
     )       
     

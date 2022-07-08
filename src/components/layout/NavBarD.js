@@ -16,7 +16,7 @@ function NavBarD(){
                     <li><Link to="/Contato">Contato</Link></li>
                     <li><Link to="/Sobre">Sobre</Link></li>
                     <li><Link to="/Newproject">Novo Projeto</Link></li>
-                    <li><Link to="/Projetos">Projetos</Link></li>
+                    <li><Link to="/Projetos">Entrar</Link></li>
             </ul>
         </nav>
     </header>
