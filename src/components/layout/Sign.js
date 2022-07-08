@@ -7,7 +7,7 @@ function Sign(){
         <div>
 
     <div className='mainDiv'>        
-            <div className="tabs">
+            <div className="tabs animate__animated animate__flipInX">
 
                 {/* LOGIN */}
                 <div className="tab">
@@ -49,7 +49,7 @@ function Sign(){
      
  
         </div>
-        <div className='divImage'>
+        <div className='divImage animate__animated animate__backInRight'>
             <img className='image' src={image} alt="image"></img>
         </div>
 
