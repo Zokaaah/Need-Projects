@@ -7,6 +7,12 @@ function Sign(){
         <div>
 
     <div className='mainDiv'>        
+
+
+    <div className='divImage animate__animated animate__backInRight'>
+            <img className='image' src={image} alt="image"></img>
+        </div>
+
             <div className="tabs animate__animated animate__flipInX">
 
                 {/* LOGIN */}
@@ -17,18 +23,19 @@ function Sign(){
 
                 <div className="tab-content">
                     <div className="form_control">
-                    <label>Login</label>
+                    <label>Email</label>
                     <input></input>          
                     <label>Senha</label>
                     <input></input>
                     <button class="btn1">Entrar</button>
+                    <p>Ainda não possui conta? Registre-se</p>
                     </div>
 
                 </div>
                 </div>
 
                 {/* CADASTRO */}
-                <div class="tab">
+                {/* <div class="tab">
                 <input type="radio" name="css-tabs" id="tab-2" class="tab-switch"></input>
                 <label for="tab-2" class="tab-label">Cadastro</label>
                 <div class="tab-content">
@@ -44,14 +51,12 @@ function Sign(){
                     </div>
 
                 </div>
-                </div>
+                </div> */}
     
      
  
         </div>
-        <div className='divImage animate__animated animate__backInRight'>
-            <img className='image' src={image} alt="image"></img>
-        </div>
+        
 
        
         </div>

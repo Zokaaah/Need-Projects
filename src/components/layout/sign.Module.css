@@ -14,7 +14,10 @@
     clear: both;
   }
   .tab {
-    float: left;
+    float: right;
+    margin-left: 530px;
+    width: 400px;
+    border-radius: 70px;
   }
   .tab-switch {
     display: none;
@@ -71,7 +74,7 @@
 
 
 .divImage{
-    width: 30%;
+    width: 40%;
 }
 
 
@@ -90,7 +93,7 @@
 .form_control input{
     margin-bottom: 1em;
     padding: 0.5em;
-    width: 240px;
+    width: 340px;
 
 }
 
@@ -101,7 +104,6 @@ color:#7b7b7b;
 .image{
     height: 530px;
     width: 380px;
-    margin-left: 210px;
 }
 
 
